@@ -1214,7 +1214,7 @@ select.sort:hover {
   padding-bottom: 8px;
   scrollbar-width: thin;
   scrollbar-color: var(--accent-ink) #f4f1ea;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .cat-pills a {
   display: inline-flex;
