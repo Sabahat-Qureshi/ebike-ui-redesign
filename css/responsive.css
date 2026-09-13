@@ -5,6 +5,9 @@
   .banner h1 {
     font-size: 44px;
   }
+  .newsletter {
+    grid-template-columns: 54% 1fr;
+  }
 }
 @media (max-width: 990px) {
   .site-header {
@@ -76,8 +79,8 @@
     grid-template-columns: 1fr;
     gap: 24px;
   }
-  .newsletter {
-    padding: 40px 20px;
+  .newsletter-sec {
+    padding: 40px 0px;
   }
   .foot-top {
     grid-template-columns: 1fr 1fr;
@@ -93,6 +96,13 @@
   }
   .header-icons {
     gap: 14px;
+  }
+  .newsletter {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .nl-form-wrapper {
+    margin-left: 0;
   }
 }
 @media (max-width: 575px) {

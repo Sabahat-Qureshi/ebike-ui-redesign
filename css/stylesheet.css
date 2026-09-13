@@ -1090,7 +1090,7 @@ select.sort:hover {
 /* ---------- FAQ ---------- */
 .faq-section {
   background: var(--surface);
-  padding: 80px 40px;
+  padding: 80px 0px;
 }
 .faq-inner {
   max-width: 1120px;
@@ -1259,15 +1259,19 @@ select.sort:hover {
 }
 
 /* ---------- Newsletter / footer ---------- */
-.newsletter {
+.newsletter-sec {
   background: var(--dark);
   color: #fff;
   padding: 56px 40px;
-  display: flex;
+}
+.newsletter {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 42% 1fr;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  flex-wrap: wrap;
 }
 .newsletter h2 {
   font-size: 26px;
@@ -1276,6 +1280,9 @@ select.sort:hover {
   color: #9a988f;
   font-size: 13.5px;
   margin-top: 8px;
+}
+.nl-form-wrapper {
+  margin-left: auto;
 }
 .nl-form {
   display: flex;
