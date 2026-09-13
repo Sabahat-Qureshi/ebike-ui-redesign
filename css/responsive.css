@@ -7,7 +7,7 @@
   }
 }
 @media (max-width: 990px) {
-  header.site {
+  .site-header {
     padding: 0 20px;
     height: 64px;
     margin-bottom: -64px;
@@ -87,6 +87,10 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .cat-pills a {
+    font-size: 13px;
+    padding: 9px 15px;
+  }
 }
 @media (max-width: 575px) {
   .grid {
@@ -137,5 +141,9 @@
   }
   .foot-bottom {
     padding: 16px 20px;
+  }
+  .banner p {
+    font-size: 13px;
+    line-height: 18px;
   }
 }
