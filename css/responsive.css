@@ -153,6 +153,9 @@
     gap: 10px;
   }
   main.collection {
-    padding: 20px 0px 40px;
+    padding: 10px 0px 40px;
+  }
+  .card-media {
+    aspect-ratio: 4/3.85;
   }
 }
