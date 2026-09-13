@@ -104,6 +104,13 @@
   .nl-form-wrapper {
     margin-left: 0;
   }
+  .result-count {
+    display: none;
+  }
+  .toolbar-right {
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 @media (max-width: 575px) {
   .grid {
