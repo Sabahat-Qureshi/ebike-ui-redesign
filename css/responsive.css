@@ -168,4 +168,7 @@
   .card-media {
     aspect-ratio: 4/3.85;
   }
+  .banner {
+    min-height: 310px;
+  }
 }
