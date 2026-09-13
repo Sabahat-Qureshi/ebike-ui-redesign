@@ -67,7 +67,7 @@
     color: var(--ink);
   }
   main.collection {
-    padding: 24px 20px 60px;
+    padding: 24px 0px 60px;
   }
   .filter-toggle {
     display: flex;
@@ -151,5 +151,8 @@
   }
   .header-icons {
     gap: 10px;
+  }
+  main.collection {
+    padding: 20px 0px 40px;
   }
 }
