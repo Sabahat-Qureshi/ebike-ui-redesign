@@ -90,8 +90,8 @@ summary:focus-visible {
 
 /* ---------- Header: separate from banner, sticky, hides on scroll-down / reveals on scroll-up ---------- */
 /* .header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.22); */
-}
+  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+} */
 .site-header {
   display: flex;
   align-items: center;
