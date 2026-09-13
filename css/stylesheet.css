@@ -97,7 +97,8 @@ summary:focus-visible {
   align-items: center;
   justify-content: space-between;
   height: 84px;
-  padding: 0 40px;
+  /* padding: 0 40px; */
+  paddig: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.22);
   position: sticky;
   top: 0;
@@ -1200,6 +1201,9 @@ select.sort:hover {
 .cat-wrapper {
   padding: 34px 40px 8px;
   text-align: center;
+  width: 100%;
+  max-width: 1030px;
+  margin: 0 auto 20px;
 }
 .cat-pills {
   display: flex;
